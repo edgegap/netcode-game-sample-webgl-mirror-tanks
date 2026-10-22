@@ -1,0 +1,97 @@
+MIT License
+
+Copyright (c) 2023-2026 Edgegap
+
+This license covers the code and files written by Edgegap in this repository:
+Assets/EdgegapMatchmaking/, matchmaker-config.json, README.md, Assets/Scenes
+and the Unity project settings. It does not cover the third-party
+components listed below, which keep their own licenses.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+THIRD-PARTY NOTICES
+================================================================================
+
+The following components are bundled in this repository under their own
+licenses. The full license texts are in the files named below.
+
+Mirror 86.13.4 (Assets/Mirror, including the Tanks example)
+  MIT License. Copyright (c) 2015, Unity Technologies; Copyright (c) 2019,
+  vis2k, Paul and Contributors. https://github.com/MirrorNetworking/Mirror
+  License text: Assets/Mirror/Notice.txt. That file's header refers to the
+  Unity Asset Store EULA for the Asset Store distribution of Mirror; Mirror's
+  source code is published under the MIT License.
+
+kcp2k (Assets/Mirror/Transports/KCP/kcp2k)
+  MIT License. Copyright (c) 2016 limpo1989, (c) 2020 Paul Pacheco,
+  (c) 2020 Lymdun, (c) 2020 vis2k.
+  License text: Assets/Mirror/Transports/KCP/kcp2k/LICENSE.txt
+
+Telepathy (Assets/Mirror/Transports/Telepathy/Telepathy)
+  MIT License. Copyright (c) 2018, vis2k.
+  License text: Assets/Mirror/Transports/Telepathy/Telepathy/LICENSE
+
+SimpleWebTransport (Assets/Mirror/Transports/SimpleWeb/SimpleWeb)
+  MIT License. Copyright (c) 2020 James Frowen.
+  License text: Assets/Mirror/Transports/SimpleWeb/SimpleWeb/LICENSE
+
+Mono.Cecil (Assets/Mirror/Plugins/Mono.Cecil)
+  MIT License. Copyright (c) 2008 - 2015 Jb Evain, (c) 2008 - 2011 Novell,
+  Inc., vis2k. License text: Assets/Mirror/Plugins/Mono.Cecil/License.txt
+
+StinkySteak benchmark example and its dependencies
+(Assets/Mirror/Examples/BenchmarkStinkySteak)
+  MIT License. Copyright (c) 2023 StinkySteak.
+  License texts: Assets/Mirror/Examples/BenchmarkStinkySteak/LICENSE.md and
+  the LICENSE.md files under its Dependencies folder.
+
+Tanks example: Recon Tank model
+(Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank)
+  CC BY 4.0. Recon Tank (update) by Mophs, based on Recon Tank by MNDV.ecb,
+  2018 Eric Buisson. https://opengameart.org/content/recon-tank
+  Attribution is required, despite "Public Domain" in the folder name.
+  Notice: Recon_Tank - License.txt in that folder.
+
+Tanks example: Dirt Hand Painted Texture
+(Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture)
+  CC BY 3.0. Created by KIIRA.
+  https://opengameart.org/content/dirt-hand-painted-texture
+  Attribution is required, despite "Public Domain" in the folder name.
+  Notice: Dirt Hand Painted Texture - License.txt in that folder.
+
+Billiards example: table model (Assets/Mirror/Examples/Billiards/Table)
+  CC0. Created by Jummit (OpenGameArt). Notice: License.txt in that folder.
+
+TextMesh Pro essential resources (Assets/TextMesh Pro)
+  Unity Companion License, as part of Unity's TextMesh Pro / uGUI package.
+  https://unity.com/legal/licenses/unity-companion-license
+  - Liberation Sans font: SIL Open Font License 1.1.
+    License text: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  - EmojiOne sprite sample: provided by EmojiOne; see
+    Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt and EmojiOne's
+    licensing terms.
+
+Packages that Unity downloads (not stored in this repository)
+  - Edgegap Unity plugin (com.edgegap.unity-servers-plugin): MIT License.
+    https://github.com/edgegap/edgegap-unity-plugin
+  - Edgegap Unity SDK (com.edgegap.unity-sdk, optional): MIT License.
+    https://github.com/edgegap/edgegap-unity-sdk
+  - Unity packages listed in Packages/manifest.json: their own licenses,
+    shown in the Unity Package Manager.
