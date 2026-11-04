@@ -1,4 +1,7 @@
 # Mirror WebGL Sample
+
+![Add Edgegap matchmaking and dedicated game servers to Mirror Networking's Tanks sample as a WebGL game.](docs/images/card.jpg)
+
 This guide will help you use [Mirror](https://mirror-networking.com/)'s Websocket Transport and create a headless server on Edgegap for a Unity project.
 
 This guide will use the open-source sample project `Tanks`, available in the Mirror sample under `Assets/Mirror/Examples/Tanks`.
