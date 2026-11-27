@@ -9,6 +9,8 @@ This guide will use the open-source sample project `Tanks`, available in the Mir
 ## Preparation
 This tutorial assumes you are already familiar with [using the Edgegap plugin](https://docs.edgegap.com/learn/unity-games/getting-started-with-servers).
 
+Clone or copy the project to a short path on Windows (for example `C:\w\mirror-tanks`): Unity package paths under a deep folder such as `OneDrive\Desktop\...` can exceed the Windows path limit and fail the server build.
+
 ## Tutorial
 To test the sample,
 
@@ -22,8 +24,8 @@ To test the sample,
 - Deploy a server.
 - In the client `NetworkManager`:
     - Set the Network Address as the deployment's `HOST_URL`;
-    - Ensure that the web transport's Client Port Option is set to `Match Webpage Protocol`;
-    - Launch the game and click the `client` button.
+    - In the web transport (`SimpleWebTransport`), set Client Port Option to `Specify Port` and Custom Client Port to the deployment's external port (the `gameport` mapping, for example `32821`). `Match Webpage Protocol` would use port 443, which does not reach a deployment, and the HUD has no port field;
+    - Build WebGL (see step 6 of the matchmaker section for how to serve it), or press Play in the editor, and click the `client` button.
 
 You can see the full documentation [here](https://docs.edgegap.com/docs/sample-projects/mirror-on-edgegap/websocket-transport).
 
